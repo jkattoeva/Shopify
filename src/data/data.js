@@ -2,26 +2,31 @@ export const categories = [
   {
     id: 1,
     title: "Hats",
-    imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+    imageUrl:
+      "https://i.pinimg.com/564x/86/ee/b9/86eeb94c59bc0a03077ce9dc984c7aae.jpg",
   },
   {
     id: 2,
     title: "Jackets",
-    imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+    imageUrl:
+      "https://i.pinimg.com/564x/58/80/ab/5880abdb3c843700846af9a741a9813a.jpg",
   },
   {
     id: 3,
     title: "Sneakers",
-    imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+    imageUrl:
+      "https://i.pinimg.com/564x/b2/a3/40/b2a3401eaa6d2d911b8709ad05174516.jpg",
   },
   {
     id: 4,
     title: "Womens",
-    imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+    imageUrl:
+      "https://i.pinimg.com/564x/13/8b/f7/138bf70eda6cea7f536c539271f49ceb.jpg",
   },
   {
     id: 5,
     title: "Mens",
-    imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+    imageUrl:
+      "https://i.pinimg.com/564x/9d/fd/6b/9dfd6b9edf0202b86b842e7501a66d2a.jpg",
   },
 ];
