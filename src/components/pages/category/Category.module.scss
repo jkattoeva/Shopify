@@ -1,0 +1,60 @@
+.postCard {
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  t */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 20px;
+  img {
+    width: 250px;
+    height: 280px;
+    border-radius: 12px;
+    transition: 0.5s;
+    border: 2px solid black;
+    &:hover {
+      border: 3px solid rgb(252, 252, 252);
+      animation: borderAnimation 4s infinite;
+    }
+  }
+
+  @keyframes borderAnimation {
+    0% {
+      border-color: #845ec2;
+    }
+    33% {
+      border-color: #b0a8b9;
+    }
+    66% {
+      border-color: #4b4453;
+    }
+    100% {
+      border-color: #00896f;
+    }
+  }
+  .post_elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    .title {
+      transition: 0.4s;
+      color: rgb(50, 47, 47);
+      font-size: 1.8rem;
+      font-weight: 800;
+
+      padding: 15px;
+      background-color: rgba(250, 248, 246, 0.831);
+      border-radius: 15px;
+      margin-top: 250px;
+      border: 4px solid black;
+    }
+  }
+}
