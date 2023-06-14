@@ -1,0 +1,27 @@
+.header {
+  position: fixed;
+  width: 100%;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  background-color: rgb(255, 255, 255);
+
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 20%;
+
+  .logo {
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .nav {
+    display: flex;
+    gap: 1rem;
+    .link {
+      color: black;
+      font-weight: 400;
+      font-size: 1rem;
+    }
+  }
+}

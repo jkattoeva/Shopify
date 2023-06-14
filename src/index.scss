@@ -1,0 +1,20 @@
+@import url("https://fonts.cdnfonts.com/css/proxima-nova-2%22");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Proxima Nova", sans-serif;
+}
+body {
+  background: url(https://i.ibb.co/x351yPg/Y1qlh-Udo-2x-min.jpg) no-repeat
+    center/cover;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
