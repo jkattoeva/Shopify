@@ -1,17 +1,12 @@
-import React from 'react';
-import Directory from './components/directory/Directory';
-import {categories} from './data/data';
-import './App.css';
-
-
-
+import React from "react";
+import Layout from "./components/layout/Layout";
 
 const App = () => {
   return (
-    <div className='container'>
-     <Directory categories={categories}/>
+    <div>
+      <Layout />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
