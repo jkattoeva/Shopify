@@ -4,22 +4,34 @@
   right: 0;
   top: 0;
   z-index: 100;
-  background-color: rgb(255, 255, 255);
+  background-image: radial-gradient(
+    circle,
+    #504b4b,
+    #3c3939,
+    #2a2828,
+    #181718,
+    #000000
+  );
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1.5rem 20%;
 
   .logo {
     color: black;
     font-weight: 600;
     font-size: 1rem;
+
+    img {
+      width: 150px;
+    }
   }
   .nav {
     display: flex;
     gap: 1rem;
     .link {
-      color: black;
+      color: rgb(255, 255, 255);
       font-weight: 400;
       font-size: 1rem;
     }
