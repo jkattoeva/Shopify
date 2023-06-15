@@ -5,7 +5,7 @@
   t */
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
 
@@ -16,7 +16,9 @@
   img {
     width: 250px;
     height: 280px;
+    margin-bottom: 15px;
     border-radius: 12px;
+
     transition: 0.5s;
     border: 2px solid black;
     &:hover {
@@ -45,16 +47,51 @@
     align-items: center;
     flex-direction: column;
     .title {
-      transition: 0.4s;
-      color: rgb(50, 47, 47);
-      font-size: 1.8rem;
-      font-weight: 800;
-
-      padding: 15px;
-      background-color: rgba(250, 248, 246, 0.831);
-      border-radius: 15px;
-      margin-top: 250px;
-      border: 4px solid black;
+      margin-bottom: 10px;
+      color: rgb(0, 0, 0);
+    }
+    .postBtn {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #ffffff;
+      padding: 10px 20px;
+      background-image: linear-gradient(
+        to right bottom,
+        #aaaaaa,
+        #909090,
+        #767676,
+        #5d5e5d,
+        #464646,
+        #404040,
+        #3a3a3a,
+        #343434,
+        #3c3c3c,
+        #454545,
+        #4e4e4e,
+        #575757
+      );
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      &:hover {
+        background-image: linear-gradient(
+          to right bottom,
+          #575757,
+          #4e4e4e,
+          #454545,
+          #3c3c3c,
+          #343434,
+          #3a3a3a,
+          #404040,
+          #464646,
+          #5d5e5d,
+          #767676,
+          #909090,
+          #aaaaaa
+        );
+      }
     }
   }
 }
