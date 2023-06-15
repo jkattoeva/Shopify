@@ -19,6 +19,12 @@ const Header = () => {
         <Link className={scss.link} to="/contact">
           Contact
         </Link>
+        <Link className={scss.link} to="/about">
+          About
+        </Link>
+        <Link className={scss.link} to="/signIn">
+          Sign In
+        </Link>
       </div>
     </div>
   );
