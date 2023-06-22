@@ -1,4 +1,5 @@
-.header {
+.header,
+.header_active {
   position: fixed;
   width: 100%;
   right: 0;
@@ -17,7 +18,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 20%;
-
+  transition: 0.4s;
   .logo {
     color: black;
     font-weight: 600;
@@ -36,4 +37,7 @@
       font-size: 1rem;
     }
   }
+}
+.header_active {
+  padding: 1.5rem 10%;
 }

@@ -4,6 +4,7 @@ import HomePage from "../../pages/HomePage";
 import ContactPage from "../../pages/ContactPage";
 import AboutPage from "../../pages/AboutPage";
 import SignInPage from "../../pages/SignInPage";
+import ItemList from "../../pages/itemList/ItemList";
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/signIn" element={<SignInPage />} />
+        <Route path="/category/:categoryId" element={<ItemList />} />
       </Routes>
     </div>
   );
