@@ -20,7 +20,6 @@
   transition: 0.4s;
 
   .burger {
-    position: relative;
     opacity: 0;
     visibility: hidden;
     color: white;
@@ -56,6 +55,7 @@
     position: absolute;
     top: 65px;
     right: 65px;
+    z-index: 50;
     visibility: hidden;
     opacity: 0;
     transform: translateY(-200px);

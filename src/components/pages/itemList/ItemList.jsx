@@ -5,12 +5,12 @@ import ItemPage from "../itemPage/ItemPage";
 
 const ItemList = () => {
   const { categoryId } = useParams();
-  const items = categories[categoryId]?.items;
-
+  const items = categories[categoryId].items;
+  console.log(items);
   return (
     <div>
       <Outlet />
-      {items?.map((item, i) => (
+      {items.map((item, i) => (
         <div key={i + 1}>
           <ItemPage item={item} />
         </div>

@@ -43,12 +43,20 @@
           border: none;
           border-radius: 0.6rem;
           text-align: center;
-          background: linear-gradient(
-            45deg,
-            rgb(82, 108, 239),
-            rgb(60, 84, 203),
-            rgb(66, 91, 216),
-            rgb(62, 77, 151)
+          background-image: linear-gradient(
+            to right bottom,
+            #1a00ff,
+            #0067ff,
+            #007cdb,
+            #008592,
+            #008965,
+            #2b894c,
+            #49872e,
+            #658300,
+            #877a00,
+            #ab6b00,
+            #cf5200,
+            #ef1c1c
           );
           color: rgb(255, 255, 255);
           font-size: 1.1rem;
