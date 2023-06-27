@@ -4,7 +4,7 @@ import googleIcon from "../../../../assets/svg/google.svg";
 import appleIcon from "../../../../assets/svg/apple.svg";
 import scss from "../Auth.module.scss";
 
-const SignInPage = () => {
+const SignIn = () => {
   return (
     <div className={scss.page}>
       <div className={scss.box}>
@@ -31,4 +31,4 @@ const SignInPage = () => {
   );
 };
 
-export default SignInPage;
+export default SignIn;

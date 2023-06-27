@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
+import cartNav from "../../../assets/svg/cartHeader.svg";
+import { categories } from "../../../data/data";
 import scss from "./Header.module.scss";
 
 const Header = () => {
@@ -57,6 +59,10 @@ const Header = () => {
           to="/about"
         >
           About
+        </NavLink>
+        <NavLink className={scss.link_cart} to="/cart">
+          <img src={cartNav} alt="cart" />
+          <span>{categories.length}</span>
         </NavLink>
         <Link className={scss.link_signIn} to="/signIn">
           Sign In

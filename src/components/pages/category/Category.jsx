@@ -1,16 +1,27 @@
 import React from "react";
-import scss from "./Category.module.scss";
 import { Link } from "react-router-dom";
+import cartIcon from "../../../assets/svg/cart.svg";
+import scss from "./Category.module.scss";
 
 const Category = ({ item }) => {
   return (
     <div className={scss.postCard}>
-      <img src={item.imageUrl} alt={item.title} />
+      <div className={scss.img_wrapper}>
+        <Link to={`category/${item.id}`}>
+          <img src={item.imageUrl} alt={item.title} />
+        </Link>
+      </div>
       <div className={scss.post_elements}>
-        <h1 className={scss.title}>{item.title}</h1>
-        <span className={scss.price}>{item.price}</span>
+        <div className={scss.data}>
+          <h1 className={scss.title}>{item.title}</h1>
+          <div className={scss.price}>
+            <span>{item.price}</span>
+          </div>
+          <p className={scss.desc}>{item.description}</p>
+        </div>
         <Link className={scss.postBtn} to={`category/${item.id}`}>
-          Add To Cart
+          <img src={cartIcon} alt="cartIcon" />
+          <span>Add To Cart</span>
         </Link>
       </div>
     </div>

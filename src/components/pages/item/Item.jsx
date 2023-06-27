@@ -1,6 +1,7 @@
 import React from "react";
-import scss from "./ItemPage.module.scss";
-const ItemPage = ({ item }) => {
+import scss from "./Item.module.scss";
+
+const Item = ({ item }) => {
   const { name, description } = item;
 
   return (
@@ -11,4 +12,4 @@ const ItemPage = ({ item }) => {
   );
 };
 
-export default ItemPage;
+export default Item;

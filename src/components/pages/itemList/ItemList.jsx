@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet, useParams } from "react-router-dom";
 import { categories } from "../../../data/data";
-import ItemPage from "../itemPage/ItemPage";
+import ItemPage from "../item/Item";
 
 const ItemList = () => {
   const { categoryId } = useParams();

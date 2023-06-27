@@ -1,7 +1,10 @@
 export const categories = [
   {
     id: 1,
-    title: "Joyful",
+    title: "Sher",
+    price: "1000000000$",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, enim in vestibulum finibus, purus tellus interdum dolor, ut gravida mi ligula id mi. Vivamus nec varius orci. Donec tempus velit id erat placerat dignissim. Sed in consectetur ex, a maximus",
     imageUrl:
       "https://i.pinimg.com/564x/86/ee/b9/86eeb94c59bc0a03077ce9dc984c7aae.jpg",
     items: [
@@ -24,32 +27,10 @@ export const categories = [
   },
   {
     id: 2,
-    title: "Joyful",
-    price: "25$",
-    imageUrl:
-      "https://i.pinimg.com/564x/58/80/ab/5880abdb3c843700846af9a741a9813a.jpg",
-    items: [
-      {
-        name: "Apple",
-        price: "1000$",
-        description: "technology and electronics",
-      },
-      {
-        name: "Starbucks",
-        price: "5$",
-        description: "coffee and beverages",
-      },
-      {
-        name: "Starbucks",
-        price: "5$",
-        description: "coffee and beverages",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Joyful",
-    price: "25$",
+    title: "Janet",
+    price: "9999999999$",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, enim in vestibulum finibus, purus tellus interdum dolor, ut gravida mi ligula id mi. Vivamus nec varius orci. Donec tempus velit id erat placerat dignissim. Sed in consectetur ex, a maximus",
     imageUrl:
       "https://i.pinimg.com/564x/b2/a3/40/b2a3401eaa6d2d911b8709ad05174516.jpg",
     items: [
@@ -72,8 +53,10 @@ export const categories = [
   },
   {
     id: 4,
-    title: "Joyful",
+    title: "Elcho",
     price: "25$",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, enim in vestibulum finibus, purus tellus interdum dolor, ut gravida mi ligula id mi. Vivamus nec varius orci. Donec tempus velit id erat placerat dignissim. Sed in consectetur ex, a maximus",
     imageUrl:
       "https://i.pinimg.com/564x/13/8b/f7/138bf70eda6cea7f536c539271f49ceb.jpg",
     items: [
@@ -96,8 +79,10 @@ export const categories = [
   },
   {
     id: 5,
-    title: "Joyful",
-    price: "25$",
+    title: "Zhuke",
+    price: "free",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, enim in vestibulum finibus, purus tellus interdum dolor, ut gravida mi ligula id mi. Vivamus nec varius orci. Donec tempus velit id erat placerat dignissim. Sed in consectetur ex, a maximus",
     imageUrl:
       "https://i.pinimg.com/564x/9d/fd/6b/9dfd6b9edf0202b86b842e7501a66d2a.jpg",
     items: [

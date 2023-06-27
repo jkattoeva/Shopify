@@ -43,6 +43,7 @@
 
   .nav {
     display: flex;
+    align-items: center;
     gap: 2rem;
 
     @media (max-width: 800px) {
@@ -83,6 +84,16 @@
     font-size: 1.1rem;
     padding: 0.8rem 1.4rem;
     border-radius: 0.3rem;
+  }
+
+  .link_cart {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+
+    span {
+      color: white;
+    }
   }
 
   .active_link {
