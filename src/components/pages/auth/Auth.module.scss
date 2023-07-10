@@ -14,7 +14,7 @@
     padding: 3rem;
     border-radius: 0.6rem;
     border: 1px solid #c4c2c2;
-    background-color: white;
+    background-color: rgba(44, 44, 44, 0.263);
 
     .content {
       display: flex;
@@ -25,7 +25,7 @@
       .title {
         font-size: 1.8rem;
         font-weight: 800;
-        color: black;
+        color: rgb(255, 255, 255);
       }
 
       .buttons {
@@ -43,27 +43,13 @@
           border: none;
           border-radius: 0.6rem;
           text-align: center;
-          background-image: linear-gradient(
-            to right bottom,
-            #1a00ff,
-            #0067ff,
-            #007cdb,
-            #008592,
-            #008965,
-            #2b894c,
-            #49872e,
-            #658300,
-            #877a00,
-            #ab6b00,
-            #cf5200,
-            #ef1c1c
-          );
+          background-color: rgba(114, 114, 114, 0.372);
           color: rgb(255, 255, 255);
           font-size: 1.1rem;
           font-weight: 500;
 
           &.apple {
-            background: rgb(86, 85, 85);
+            background-color: rgba(114, 114, 114, 0.372);
             color: white;
           }
         }

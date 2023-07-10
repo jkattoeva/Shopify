@@ -1,14 +1,32 @@
 import React from "react";
-import scss from "../Styles.module.scss";
+import image from "../../../assets/images/background.webp";
+import scss from "./About.module.scss";
 
 const About = () => {
   return (
-    <div className={scss.page}>
-      {/* <img
-        className={scss.form}
-        src="https://i.pinimg.com/564x/73/d2/55/73d2554f492eacfe316558fa574bf666.jpg"
-        alt="signin"
-      /> */}
+    <div className={scss.about__page}>
+      <div className={scss.container}>
+        <div className={scss.text}>
+          <h1 className={scss.title}>About us</h1>
+          <p className={scss.desc}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            ab deserunt blanditiis sint, nam exercitationem aliquid illo neque
+            porro, soluta deleniti. Vitae vero in placeat eius quas accusamus
+            incidunt asperiores.
+          </p>
+        </div>
+        <div className={scss.images}>
+          <div className={scss.image}>
+            <img src={image} alt="img" />
+          </div>
+          <div className={scss.image}>
+            <img src={image} alt="img" />
+          </div>
+          <div className={scss.image}>
+            <img src={image} alt="img" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

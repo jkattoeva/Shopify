@@ -9,8 +9,21 @@
   font-family: "Proxima Nova", sans-serif;
 }
 body {
-  background: url(https://i.ibb.co/x351yPg/Y1qlh-Udo-2x-min.jpg) no-repeat
-    center/cover;
+  background-image: radial-gradient(
+    circle,
+    #4a0012,
+    #3e0512,
+    #320811,
+    #26080e,
+    #1b050a,
+    #150307,
+    #0c0204,
+    #000000,
+    #000000,
+    #010100,
+    #010101,
+    #010101
+  );
   overflow-x: hidden;
   display: flex;
   align-items: center;
