@@ -1,0 +1,81 @@
+.head__content {
+  width: 100vw;
+  height: 100vh;
+
+  .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+
+    .text__content {
+      position: absolute;
+      top: 20rem;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 1.5rem;
+      height: 100px;
+      border-radius: 0 1.5rem;
+
+      background-image: radial-gradient(
+        circle,
+        #4a0012,
+        #3e0512,
+        #320811,
+        #26080e,
+        #1b050a,
+        #150307,
+        #0c0204,
+        #000000,
+        #000000,
+        #010100,
+        #010101,
+        #010101
+      );
+
+      p {
+        font-weight: 700;
+        text-align: center;
+        font-size: 40px;
+        font-family: Hack, sans-serif;
+        text-transform: uppercase;
+        background: linear-gradient(90deg, #1b050a, #fff, #26080e);
+        letter-spacing: 5px;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: shine 5s linear infinite;
+        position: relative;
+      }
+
+      @keyframes shine {
+        0% {
+          background-position-x: -500%;
+        }
+        100% {
+          background-position-x: 500%;
+        }
+      }
+    }
+    .images {
+      display: flex;
+
+      .image {
+        width: 500px;
+        height: 800px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
