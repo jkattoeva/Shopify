@@ -101,11 +101,11 @@
       border: none;
       border-radius: 5px;
       cursor: pointer;
-      background-color: black;
+      background-color: rgba(14, 5, 5, 0.632);
       transition: 0.3s;
 
       &:hover {
-        background-color: black;
+        background-color: rgba(57, 57, 57, 0.445);
       }
     }
   }
