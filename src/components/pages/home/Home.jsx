@@ -7,7 +7,7 @@ import scss from "../Styles.module.scss";
 const Home = () => {
   return (
     <div className={scss.home__page}>
-      <HeadContent />
+      <HeadContent page="home" />
       <Directory categories={categories} />
     </div>
   );
