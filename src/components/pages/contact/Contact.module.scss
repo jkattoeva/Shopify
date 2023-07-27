@@ -4,49 +4,101 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 1rem;
+  margin: 10rem 0;
   gap: 1.5rem;
 
-  .title {
-    h1 {
-      color: white;
-    }
-  }
-
-  .form {
-    width: 100vw;
-    max-width: 500px;
+  .container {
+    width: 100%;
+    max-width: 1000px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 1rem;
-    padding: 3rem 2.5rem;
+    padding: 1rem 1.5rem;
     border-radius: 1.4rem;
     background-color: rgba(44, 44, 44, 0.263);
+    border: 1px solid white;
 
-    .input_wrapper {
+    .form_content {
+      width: 100%;
+
+      .title {
+        h1 {
+          margin-top: 1rem;
+          color: white;
+        }
+      }
+
+      .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.7rem;
+        padding: 3rem 2.5rem;
+
+        .input_wrapper {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          width: 100%;
+          margin: 0.8rem;
+
+          span {
+            color: white;
+          }
+          .input {
+            width: 100%;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 0.6rem;
+            color: white;
+            background-color: rgba(114, 114, 114, 0.372);
+
+            &:focus {
+              outline: 1px solid rgb(143, 11, 44);
+            }
+          }
+        }
+        .btn {
+          padding: 0.6rem 3rem;
+          border-radius: 1.5rem;
+          border: 1px solid rgba(131, 131, 131, 0.411);
+          background-color: rgba(40, 36, 38, 0.256);
+          color: white;
+          font-weight: 500;
+
+          &:hover {
+            border: 1px solid rgba(59, 5, 17, 0.411);
+            background-color: rgba(154, 10, 46, 0.256);
+            transition: 0.8s;
+          }
+        }
+      }
+    }
+    .inf_content {
       display: flex;
       flex-direction: column;
-      gap: 1rem;
-      width: 400px;
+      gap: 10rem;
+      width: 100%;
       margin: 0.8rem;
+      background-image: url(https://i.pinimg.com/564x/a9/7d/50/a97d50d4257412d7841e003b0e31be27.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-radius: 1rem;
+      padding: 5rem;
+      color: white;
 
-      span {
-        color: white;
-      }
-      .input {
-        width: 100%;
-        min-width: 100%;
-        max-width: 100%;
-        padding: 0.8rem;
-        border: none;
-        border-radius: 0.6rem;
-        background-color: rgba(114, 114, 114, 0.372);
-
-        &:focus {
-          outline: 1px solid red;
-        }
+      .inf {
+        display: flex;
+        flex-direction: column;
+        margin-top: -8rem;
+        padding: 1rem;
+        gap: 2.5rem;
+        border-radius: 1.4rem;
+        background-color: rgba(69, 69, 69, 0.511);
+        border: 1px solid white;
       }
     }
   }
