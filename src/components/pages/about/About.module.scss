@@ -1,6 +1,5 @@
 .about__page {
   width: 100vw;
-  height: 100vh;
   background-image: radial-gradient(
     circle,
     #4a0012,
@@ -16,6 +15,7 @@
     #010101,
     #010101
   );
+  color: white;
 
   .container {
     padding-top: 1.5rem;
@@ -25,24 +25,36 @@
     justify-content: center;
     gap: 2rem;
 
-    .text {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 800px;
-      color: white;
+    .title {
+      width: 900px;
     }
 
-    .images {
+    .scnd_cont {
+      width: 800px;
       display: flex;
-      gap: 1.5rem;
+      flex-direction: column;
 
-      .image {
-        width: 300px;
+      .img_desc {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
 
-        img {
-          width: 100%;
+        .image {
+          width: 500px;
+          height: 400px;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .desc {
+          width: 500px;
+
+          p {
+            width: 100%;
+          }
         }
       }
     }
