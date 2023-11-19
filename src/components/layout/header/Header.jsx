@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
 import cartNav from "../../../assets/svg/cartHeader.svg";
 import { categories } from "../../../data/data";
+import logo from "../../../assets/svg/logo.svg";
 import scss from "./Header.module.scss";
 
 const Header = () => {
@@ -27,10 +28,7 @@ const Header = () => {
   return (
     <div className={`${active ? scss.header_active : scss.header}`}>
       <Link className={scss.logo} to="/">
-        <img
-          src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/110/8414017110_8e9062f0-6eb2-4950-be7c-f82071b345c6.png?cb=1686784983"
-          alt="logo"
-        />
+        <img src={logo} alt="logo" />
       </Link>
       <div onClick={handleChangeToggle} className={scss.burger}>
         {toggle ? "Close" : "Burger"}
@@ -64,7 +62,7 @@ const Header = () => {
           <img src={cartNav} alt="cart" />
           <span>{categories.length}</span>
         </NavLink>
-        <Link className={scss.link_signIn} to="/signIn">
+        <Link className={scss.link_signIn} to="/login">
           Sign In
         </Link>
       </div>

@@ -4,10 +4,12 @@ import ItemList from "../../pages/itemList/ItemList";
 import Contact from "../../pages/contact/Contact";
 import About from "../../pages/about/About";
 import SignUp from "../../pages/auth/signUp/SignUp";
-import SignIn from "../../pages/auth/signIn/SignIn";
 import Cart from "../../pages/cart/Cart";
 import Home from "../../pages/home/Home";
+import Login from "../../pages/auth/login/Login";
 import scss from "./Main.module.scss";
+import RegisterForm from "../../pages/auth/signUpform/SignUpForm";
+
 const Main = () => {
   return (
     <>
@@ -17,8 +19,8 @@ const Main = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/signIn" element={<SignIn />} />
-          <Route path="/signUp" element={<SignUp />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<RegisterForm />} />
           <Route path="/category/:categoryId" element={<ItemList />} />
         </Routes>
       </div>

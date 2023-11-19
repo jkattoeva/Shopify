@@ -1,6 +1,7 @@
 import React from "react";
 import scss from "./Contact.module.scss";
 import { useForm } from "react-hook-form";
+import logo from "../../../assets/svg/logo.svg";
 
 const bannedWords = ["fuck", "dump", "stupid", "fucking", "dummy"];
 
